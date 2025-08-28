@@ -3,6 +3,7 @@ function test() {
   alert('테스트');
 };
 
+
 //Property Listener(프로퍼티 리스너)
 //동일한 이벤트를 여러 번 사용 불가
 const btn2 = document.querySelector('#btn2');
