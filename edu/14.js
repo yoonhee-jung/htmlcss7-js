@@ -58,10 +58,24 @@ inputEmail.addEventListener('keyup', (e) => {
 //  console.log(regex.test(e.target.value));
 });
 
-// ------------------비밀번호 보이고 안보이고------------------
+// -----------------비밀번호 보이고 안보이고------------------
 const chkPw = document.querySelector('#seePw');
 chkPw.addEventListener('change', (e) => {
-  //인풋 패스워드 접근
+    //인풋 패스워드 접근
+    const pw = document.querySelector('#pw');
+    //체크여부 확인 분기
+  if(e.target.checked) {
+    //인풋 패스워드 type 속성 text로 변경
+    pw.setAttribute('type', 'text');
+    //인풋 패스워드 type 속성 password로 변경
+  } else {
+    pw.setAttribute('type', 'password');
+  }
+});
+
+const chkPw = document.querySelector('#seePw');
+chkPw.addEventListener('change', (e) => {
+    //인풋 패스워드 접근
     const pw = document.querySelector('#pw');
     //체크여부 확인 분기
   if(e.target.checked) {
