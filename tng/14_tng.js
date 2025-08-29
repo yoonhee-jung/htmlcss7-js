@@ -3,6 +3,7 @@ writeBtn.addEventListener('click', () => {
   const keywordInput = document.querySelector('#keyword');
   let keyword = keywordInput.value;
 
+  
   // [false | null | undefined | 0 | '']
   if(keywordInput.value) {
 
