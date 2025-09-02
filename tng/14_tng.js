@@ -19,7 +19,6 @@ writeBtn.addEventListener('click', () => {
     e.target.classList.toggle('toggle-line-through');
   });
 
-
   // 생성한 요소 추가
   const printBox = document.querySelector('.print-box');
   printBox.appendChild(newContent);
