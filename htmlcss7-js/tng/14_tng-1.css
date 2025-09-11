@@ -1,0 +1,19 @@
+form {
+  border: 1px solid gray;
+  margin: 20px;
+}
+
+
+.layoutOne {
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+}
+
+
+.layoutTwo {
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
